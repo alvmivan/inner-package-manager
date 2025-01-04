@@ -1,8 +1,9 @@
 {
   "name": "inner-package-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "generate-config": "node generate-config.js"
   },

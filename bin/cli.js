@@ -1,4 +1,6 @@
-﻿import {program} from "commander";
+﻿#!/usr/bin/env node
+
+import {program} from "commander";
 
 import {init, install, update} from "../lib";
 

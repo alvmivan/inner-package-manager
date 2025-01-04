@@ -1,5 +1,12 @@
 ## Inner Package Manager
 
+### Installation
+
+```bash
+npm i inner-package-manager
+```
+
+
 ### Description
 
 The idea behind this project
