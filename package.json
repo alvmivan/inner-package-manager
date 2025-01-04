@@ -1,19 +1,20 @@
 {
   "name": "inner-package-manager",
   "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "description": "A CLI tool to manage git-tracked inner packages.",
   "type": "module",
-  "scripts": {
-    "generate-config": "node generate-config.js"
-  },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "inner-packages-manager": "./bin/cli.js"
+  },   
+  "keywords": ["npm", "packages", "git", "cli", "manager"],
+  "author": "Tu Nombre o Alias",
   "license": "ISC",
   "dependencies": {
     "commander": "^13.0.0"
   },
-  "bin": {
-    "inner-packages-manager": "./bin/cli.js"
-  }
+  "files": [
+    "bin/",
+    "lib/",
+    "generate-config.js"
+  ]
 }

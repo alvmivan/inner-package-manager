@@ -2,7 +2,7 @@
 
 import {program} from "commander";
 
-import {init, install, update} from "../lib";
+import {init, install, update} from "../lib/index.js";
 
 
 program
