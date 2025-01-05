@@ -1,8 +1,8 @@
 ## Inner Package Manager
 
-![npm](https://img.shields.io/npm/v/inner-package-manager)
-![Build Status](https://img.shields.io/github/actions/workflow/status/alvmivan/inner-package-manager/publish.yml?branch=main)
-![License](https://img.shields.io/github/license/alvmivan/inner-package-manager)
+[![npm](https://img.shields.io/npm/v/inner-package-manager)](https://www.npmjs.com/package/inner-package-manager/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/alvmivan/inner-package-manager/publish.yml?branch=main)](https://github.com/alvmivan/inner-package-manager/releases/latest)
+[![License](https://img.shields.io/github/license/alvmivan/inner-package-manager)](./LICENSE)
 
 ### Installation
 
