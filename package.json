@@ -1,6 +1,6 @@
 {
   "name": "inner-package-manager",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A CLI tool to manage git-tracked inner packages.",
   "type": "module",
   "bin": {
@@ -13,8 +13,12 @@
     "cli",
     "manager"
   ],
-  "author": "Tu Nombre o Alias",
-  "license": "ISC",
+  "author": {
+    "name": "Marcos Alvarez",
+    "email": "alvmivan@gmail.com",
+    "url": "https://github.com/alvmivan"
+  },
+  "license": "GPL-3.0",
   "dependencies": {
     "commander": "^13.0.0",
     "fs-extra": "^11.2.0",
