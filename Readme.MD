@@ -37,26 +37,19 @@ _note_: The `at` field is optional, you can use it to specify a branch, tag or c
 
 To create an `inner-packages.json` file for you if not exists you can run the following command.
 ```bash
-npm run inner-packages-manager init
+npm inner init
 ```
-
 
 Then run the following command to install the required dependencies.
 
 ```bash
-npm run inner-packages-manager install
-```
-
-Or you can update the dependencies by running the following command.
-
-```bash
-npm run inner-packages-manager update
+npm inner install
 ```
 
 To install a certain package you can run the following command.
 
 ```bash
-npm run inner-packages-manager install your-github-repo-url
+npm inner install your-github-repo-url
 ```
 
 
