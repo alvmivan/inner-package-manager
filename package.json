@@ -1,6 +1,6 @@
 {
   "name": "inner-package-manager",
-  "version": "1.0.7",
+  "version": "1.0.7.1",
   "description": "A CLI tool to manage git-tracked inner packages.",
   "type": "module",
   "bin": {
