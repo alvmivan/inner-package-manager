@@ -32,11 +32,11 @@ jobs:
 
       - name: Get package version
         id: get_version
-        run: echo 'PACKAGE_VERSION=$(node -p -e "require(\'./package.json\').version")' >> $GITHUB_ENV
-        
+        run: echo "PACKAGE_VERSION=$(node -p -e 'require(\"./package.json\").version')" >> $GITHUB_ENV
+
       - name: Get package name
         id: get_name
-        run: echo "PACKAGE_NAME=$(node -p -e \"require('./package.json').name\")" >> $GITHUB_ENV
+        run: echo "PACKAGE_NAME=$(node -p -e 'require(\"./package.json\").name')" >> $GITHUB_ENV
 
       - name: Create GitHub tag
         run: git tag v${{ env.PACKAGE_VERSION }}
