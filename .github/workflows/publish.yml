@@ -23,12 +23,7 @@ jobs:
         run: npm install
 
 #      - name: Run tests
-#        run: npm test # Opcional: quita esta línea si no tienes pruebas definidas
-
-      - name: Publish to npm
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish
+#        run: npm test # Optional: remove this line if you don't have tests defined
 
       - name: Get package version
         id: get_version
@@ -49,8 +44,9 @@ jobs:
       - name: Push GitHub tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} v${{ env.PACKAGE_VERSION }}
-
+        run: git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} --tags
+      
+      
       - name: Create GitHub release
         uses: actions/create-release@v1
         with:
@@ -65,6 +61,11 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
 
       - name: Print npm package URL
         run: |
