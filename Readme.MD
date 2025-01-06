@@ -29,13 +29,15 @@ This file will contain the dependencies of your project.
     {
       "name": "your-package-name",
       "repo": "https://github.com/your-github-user/your-repo-name.git",
-      "at": "master"
+      "at": "master",
+      "targetDir": "your/relative/target/directory"
     }
   ]
 }
 ```
 
 _note_: The `at` field is optional, you can use it to specify a branch, tag or commit hash.
+_note_: The `targetDir` field is optional, you can use it to specify a relative directory where the files will be copied else will be at the `repos` folder.
 
 
 
