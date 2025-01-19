@@ -68,5 +68,27 @@ This also will look for a package.json file (if exists) in the root of the clone
 As well as the dependencies on an inner-packages.json file in the cloned repository.
 
 
+## Contributing
 
+Contributions are welcome! If you'd like to contribute to this library, please fork the repository and submit a pull
+request.
 
+How to Contribute
+Fork the repository.
+
+* Create a new branch for your feature `git checkout -b feature-name`
+* Commit your changes `git commit -am 'Add new feature'`
+* Push to the branch `git push origin feature-name`
+* Open a pull request. I'll be happy to review it!
+
+## License
+
+This project is licensed under the GPL-3.0 License.
+
+## Author
+
+`Marcos Alvarez`
+
+[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="38" height="38">](https://github.com/alvmivan)
+[<img src="https://www.linkedin.com/favicon.ico" width="40" height="40">](https://www.linkedin.com/in/marcos-alvarez-40651b150/)
+[<img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" width="40" height="40">](mailto:alvmivan@gmail.com)
